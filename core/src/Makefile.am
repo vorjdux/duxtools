@@ -1,10 +1,9 @@
-bin_PROGRAMS = dux
+bin_PROGRAMS = duxtools
 
-dux_LDADD = -lpthread -lbobcat
-dux_LDFLAGS= 
-dux_CPPFLAGS = -std=c++14 -Wall -I../include
+duxtools_LDADD = -lpthread
+duxtools_LDFLAGS= 
+duxtools_CPPFLAGS = -std=c++14 -Wall -I../include
 
-dux_SOURCES = \
-lexer/Scanner.cpp \
-grammar/Parser.cpp \
-dux.cpp
+duxtools_SOURCES = \
+objects/dict.cpp \
+duxtools.cpp
