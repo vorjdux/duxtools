@@ -1,0 +1,69 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.o
+*.lo
+*.la
+*.so
+*.so.*
+*.deb
+autom4te.cache
+.sublime-project
+.sublime-project.sublime-workspace
+Makefile.in
+Makefile
+libtool
+config.log
+config.status
+aclocal.m4
+compile
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+missing
+*.deps
+*.dirstamp
+*/**/Makefile
+*/**/Makefile.in
+*/**/.libs/
+*/**/config.h.in~
+*/**/config.h.in
+*/**/stamp-h1
+deps/
+*/dux-lang-*.tar.gz
+.emacs.desktop*
+upstream
+*/**/docker-data
+*/**/__pycache__/
